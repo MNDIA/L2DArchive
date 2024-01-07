@@ -1,0 +1,26 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "SCHXZ.moc3",
+		"Textures": [
+			"SCHXZ.2048/texture_00.png"
+		],
+		"Physics": "SCHXZ.physics3.json",
+		"DisplayInfo": "SCHXZ.cdi3.json"
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": []
+		},
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": [
+				"ParamEyeROpen",
+				"ParamEyeLOpen"
+			]
+		}
+	]
+}
